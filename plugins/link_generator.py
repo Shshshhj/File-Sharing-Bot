@@ -6,7 +6,7 @@ from bot import Bot
 from config import ADMINS
 from helper_func import encode, get_message_id
 
-@Bot.on_message(filters.private & filters.command('batch'))
+@Bot.on_message(filters.private & filters.command('baghjkjjtch'))
 async def batch(client: Client, message: Message):
     while True:
         try:
