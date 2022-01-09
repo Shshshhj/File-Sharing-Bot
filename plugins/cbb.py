@@ -10,7 +10,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<u>how to use me </u>\n \nFirst sent any images Or files and then sent the below commands. \n 9/batch - create link for more than one posts.\n /genlink - create link for one post",
+            text = f"<u>how to use me </u>\n \nJust sent any images Or files and take the link.",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
